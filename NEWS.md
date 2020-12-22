@@ -1,6 +1,8 @@
 # sfdct 0.1.0
 
-* Fixed stuff for CRAN, removed a test that is GEOS-version specific. 
+* Fixed for CRAN, a failing test due to new more-robust GEOS (3.9.0), thanks 
+ Roger Bivand https://github.com/hypertidy/sfdct/issues/13. 
+
 
 * testthat changes, `is_false()` to `expect_false()` to avoid warnings. 
 
@@ -48,7 +50,6 @@ Result: ERROR
      Error: Test failures
      Execution halted
 Flavor: r-devel-linux-x86_64-debian-gcc
-
 
 
 # sfdct 0.0.6

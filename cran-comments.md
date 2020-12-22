@@ -1,4 +1,5 @@
-Fixes for failing tests on CRAN around GEOS version. 
+
+Fixed failing test in upcoming GEOS uprade (3.9.0). 
 
 ## Test environments
 
