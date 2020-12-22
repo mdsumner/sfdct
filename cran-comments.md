@@ -1,9 +1,8 @@
-
-Remove quoting around Delaunay, thank you. 
+Fixes for failing tests on CRAN around GEOS version. 
 
 ## Test environments
 
-* ubuntu 16.04 
+* ubuntu 18.04 
 * win-builder (devel and release)
 
 ## R CMD check results

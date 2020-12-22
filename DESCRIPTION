@@ -1,6 +1,6 @@
 Package: sfdct
 Title: Constrained Triangulation for Simple Features
-Version: 0.0.6
+Version: 0.1.0
 Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com")
 Description: Build a constrained Delaunay triangulation from simple features
     objects, applying constraints based on input line segments, and triangle
@@ -21,7 +21,7 @@ Imports:
     sf, 
     sp, 
     tibble
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Suggests: testthat,
     covr,
     knitr,
